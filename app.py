@@ -1217,7 +1217,11 @@ if page == "🏠 Tổng quan":
 # ============================================================
 
 elif page == "🛏️ Quản lý phòng":
-
+st.image(
+    "hinhanhphong.jpg",
+    caption="Hình ảnh phòng Melia TwoChanel",
+    use_container_width=True
+)
     st.title(
         "🛏️ QUẢN LÝ PHÒNG"
     )
